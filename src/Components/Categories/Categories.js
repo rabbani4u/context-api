@@ -1,11 +1,11 @@
 import React from "react";
 import CategoriesDetails from "../CategoriesDetails/CategoriesDetails";
 
-function Categories({ count }) {
+function Categories() {
   return (
     <div>
-      <h3>Categories: {count}</h3>
-      <CategoriesDetails count={count} />
+      <h3>Categories</h3>
+      <CategoriesDetails />
     </div>
   );
 }
